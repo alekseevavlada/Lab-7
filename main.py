@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 
 # Task 1
 
-
 def start():
     array_1 = []
     for i in range(1000000):
@@ -26,7 +25,6 @@ def start():
     array_2 = np.random.rand(1000000)
     end = np.multiply(array_1, array_2)
     print('Итог:', perf_counter() - time_now)
-
 
 # Task 2
 
@@ -67,9 +65,7 @@ def graph():
     plt.plot(dross, o, 'o')
     plt.show()
 
-
 # Task 3
-
 
 def plot3d():
     np.random.seed(40)
